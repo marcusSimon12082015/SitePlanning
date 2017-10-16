@@ -9,74 +9,93 @@
 		<title>Exceptional Realty Group - Luxury Homes - About</title>
 	</head>
 	<body>
-		<header>
-			<div id="logo">
-			<h1>Exceptional</h1>
-			<h2>Realty Group</h2>
+		<div id="social">
+		<a href="#">Twitter</a>	
+		<a href="#">Facebook</a>	
+		<a href="#">Google Plus</a>	
 		</div>
-			<!--links-->
-		<nav>
-			<a href="index.html">About</a>
-			<a href="new-properties.html">New Properties</a>
-			<a href="real-estate-listings.html">Listings</a>
-			<a href="market-report.html">Market Report</a>
-			<a href="contact.html">Contact</a>
-		</nav>
+		<header>
+			<div class="wrapper">
+				<div id="logo">
+					<h1>Exceptional</h1>
+					<h2>Realty Group</h2>
+				</div>
+					<!--links-->
+				<nav>
+					<a href="index.html">About</a>
+					<a href="new-properties.html">New Properties</a>
+					<a href="real-estate-listings.html">Listings</a>
+					<a href="market-report.html">Market Report</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div> <!-- .wrapper -->
 		</header>
-		<section id="featured-property">
-	<figure>
-		<img src="images/intro-pic.jpg">
-		<figcaption>345 Carl Street</figcaption>
-	</figure>			
-		<p>Lorem ipsum
-		dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-	</p>
-	</section>
-	<section id="promotional">
-		<!-- Promo Video -->
-		<figure>
-		<video controls>
-			<source src="videos/realEstate.mp4" type="video/mp4"> 
-			<source src="videos/realEstate.ogv" type="video/ogg">
-			Your browser does not support HTML5 video. 
-			<a href="http://browsehappy.com" target="_blank">Please upgade
-			your browser</a> 	
-		</video>
-		<figcaption>Exceptional Reality Group Promotional Video</figcaption>
-		</figure>
-	</section>
+		
+		<div class="wrapper clearfix">
+			<section id="featured-property" class="col-3 first">
+			<figure>
+				<img src="images/intro-pic.jpg">
+				<figcaption>345 Carl Street</figcaption>
+			</figure>			
+				<p>Lorem ipsum
+				dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+			</p>
+			</section>
+			<section id="promotional" class="col-2 first">
+				<!-- Promo Video -->
+				<figure>
+				<video controls>
+					<source src="videos/realEstate.mp4" type="video/mp4"> 
+					<source src="videos/realEstate.ogv" type="video/ogg">
+					Your browser does not support HTML5 video. 
+					<a href="http://browsehappy.com" target="_blank">Please upgade
+					your browser</a> 	
+				</video>
+					<figcaption>Exceptional Reality Group Promotional Video</figcaption>
+				</figure>
+			</section>
+			<section id="news" class="col-1">
+				<h3>Company News</h3>
+				<p>
+				Lorem ipsum
+				dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+				</p>
+			</section>
+		</div> <!-- .wrapper -->
 	<section id="details">
-      <div>
-        <h3>Contact</h3>
-        <p>
-          email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
-          phone: +1 710 555 1234
-        </p>
-        <h3>Correspondence</h3>
-        <address>
-          Exceptional Realty<br>
-          P.O.Box 5555<br>
-          Brooklyn, NY 11201
-        </address>
-      </div>
+		<div class="wrapper clearfix">
+		      <div class="col-1 first">
+		        <h3>Contact</h3>
+		        <p>
+		          email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+		          phone: +1 710 555 1234
+		        </p>
+		        <h3>Correspondence</h3>
+		        <address>
+		          Exceptional Realty<br>
+		          P.O.Box 5555<br>
+		          Brooklyn, NY 11201
+		        </address>
+		      </div>
 
-      <div>
-        <h3>Links</h3>
-        <p>
-          <a href="#" target="_blank">Home Restoration</a><br>
-          <a href="#" target="_blank">Afordable Mortgages</a><br>
-          <a href="#" target="_blank">Professional Moving Crew</a>
-        </p>
-      </div>
+		      <div class="col-1">
+		        <h3>Links</h3>
+		        <p>
+		          <a href="#" target="_blank">Home Restoration</a><br>
+		          <a href="#" target="_blank">Afordable Mortgages</a><br>
+		          <a href="#" target="_blank">Professional Moving Crew</a>
+		        </p>
+		      </div>
 
-      <div>
-        <h3>Follow</h3>
-        <p>
-          <a href="#" target="_blank">Youtube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
-          <a href="#" target="_blank">Twitter</a>
-        </p>
-      </div>
+		      <div class="col-1">
+		        <h3>Follow</h3>
+		        <p>
+		          <a href="#" target="_blank">Youtube</a><br>
+		          <a href="#" target="_blank">Facebook</a><br>
+		          <a href="#" target="_blank">Twitter</a>
+		        </p>
+		      </div>
+		  </div> <!-- .wrapper -->
     </section>
 
 	<footer>&copy; 2014 Exceptional Reality. All Rights reserved</footer>	 
